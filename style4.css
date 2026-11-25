@@ -1,0 +1,156 @@
+.container{
+    background-color: rgb(216, 219, 192);
+    gap: 10px;
+    display: flex;
+    height: 2%;
+}
+.navigationbars{
+    color: rgb(0, 0, 0);
+gap: 15px;
+display: flex;
+align-items: center;
+font-size: large;
+}
+.navigationbars a{
+     text-decoration: none;
+     color: black;
+     font-size: 22px;
+}
+.icons{
+color: rgb(12, 12, 12);
+gap: 15px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.image {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    height: 40%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px gray;
+}
+.images{
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+     transition: 0.3s;
+      cursor: pointer;
+}
+
+.product{
+color: black;
+}
+#button{
+color: bisque;
+background-color: brown;
+}
+
+
+.product1{
+    color: black;
+    height: 20px;
+}
+
+.product2{
+    color: black;
+}
+
+.product3{
+    color: black;
+}
+
+.product4{
+color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: brown;
+}
+#pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 200px;
+}
+
+.product {
+    width: 230px;
+
+}
+
+.sale {
+    background: #ead8d2;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.sale h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.sale a {
+    display: inline-block;
+    background: #9b625b;
+    color: white;
+    padding: 13px 25px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+footer {
+    background: #302523;
+    color: white;
+    text-align: center;
+    padding: 45px 15px;
+    line-height: 2.2;
+   width: 1500px;
+}
+
+@media(max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .hero-content h2 {
+        font-size: 36px;
+    }
+
+    .category {
+        width: 100%;
+    }
+
+    .product {
+        width: 45%;
+        min-width: 140px;
+    }
+
+    .product img {
+        height: 200px;
+    }
+}
